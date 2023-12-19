@@ -19,7 +19,11 @@ body {
   color: #fff;
   background-color:#1160c7;
 }
-
+header { 
+position: fixed;
+width: 100%;
+background-color: #1160c7;
+}
 .portafolio {
   width: 80w;
   height: 80w;
@@ -72,11 +76,12 @@ body {
 .main {
   margin: 0 auto;
   width: 90vw;
-  height: 80vh;
+  height: 100vh;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   align-items: center;
   color: #d2e7fa;
+
 }
 
 h1 {
